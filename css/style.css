@@ -675,4 +675,253 @@
   justify-content: space-around;
 }
 
+.footer {
+  background-image: url("../img/footerBg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0 40px;
+}
+
+.footer .contentSector {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .title {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 90px;
+}
+
+.footer .title span {
+  color: #ffea3c;
+}
+
+.footer .leftSector {
+  width: 67%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 3%;
+}
+
+.footer .leftSector .text {
+  font-family: 'ProximaNova-Bold';
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer .leftSector .text span {
+  font-family: 'ProximaNovaExtrabold';
+  color: #ffea3c;
+}
+
+.footer .leftSector .row {
+  margin-top: 55px;
+}
+
+.footer .leftSector .cards {
+  width: 25%;
+  float: left;
+}
+
+.footer .leftSector .cards .circle {
+  border: 5px solid #ffea3c;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.footer .leftSector .cards .circle .count {
+  font-family: 'ProximaNova-Bold';
+  color: #fff;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer .leftSector .cards .circle .info {
+  font-size: 13px;
+  color: #fff;
+  font-family: 'ProximaNova-Bold';
+  text-align: center;
+}
+
+.footer .leftSector .row .text {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.footer .rightSector {
+  width: 30%;
+  float: left;
+}
+
+.footer .rightSector form {
+  background-color: #000;
+  width: 100%;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.footer .rightSector .filed-group {
+  width: 290px;
+  background-color: #fff;
+  width: 100%;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 20%;
+  background-repeat: no-repeat;
+  background-position: 20px  center;
+}
+
+.footer .rightSector .filed-group input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.footer .rightSector .yourName {
+  background-image: url("../img/icons/footerName.png");
+}
+
+.footer .rightSector .yourEmail {
+  background-image: url("../img/icons/footerEmail.png");
+}
+
+.footer .rightSector .yourPhone {
+  background-image: url("../img/icons/footerPhone.png");
+}
+
+.footer .rightSector .orderKey {
+  background-color: #f44236;
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  width: 290px;
+  height: 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+}
+
+.footer .rightSector .orderKey:hover {
+  opacity: .8;
+}
+
+.footer .bottomPanel {
+  margin-top: 115px;
+}
+
+.footer .bottomPanel .conf {
+  font-family: 'ProximaNova-Regular';
+  font-size: 16px;
+  float: left;
+  color: #fff;
+  margin-left: 5%;
+}
+
+.footer .bottomPanel .conf a {
+  color: #ffea3c;
+  display: block;
+}
+
+.footer .bottomPanel .ask {
+  font-family: 'ProximaNova-Bold';
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  float: left;
+  margin-left: 5%;
+}
+
+.footer .bottomPanel .recall {
+  margin-left: 5%;
+  float: left;
+}
+
+.footer .bottomPanel .recall a {
+  font-family: 'ProximaNovaExtrabold';
+  color: #fff;
+  display: block;
+  font-size: 20px;
+}
+
+.footer .bottomPanel .recall span {
+  font-family: 'ProximaNova-Regular';
+}
+
+.footer .bottomPanel .recall .callBack {
+  font-family: 'ProximaNova-Bold';
+  color: #ffea3c;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.footer .logoThe {
+  position: relative;
+  z-index: 0;
+  padding-left: 2%;
+  float: left;
+}
+
+.footer .logoThe .uppercase {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer .logoThe .uppercase span {
+  color: #ffea3c;
+}
+
+.footer .logoThe .lovercase {
+  font-family: 'ProximaNova-Regular';
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer .logoThe:before {
+  content: "";
+  position: absolute;
+  background-color: #ffea3c;
+  width: .4vw;
+  height: 100%;
+  left: 0;
+  top: .4vw;
+}
+
 /*# sourceMappingURL=style.css.map */
