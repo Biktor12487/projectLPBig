@@ -1,0 +1,570 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'ProximaNovaExtrabold';
+  font-weight: 900;
+  src: url("../fonts/ProximaNova-Extrabld.ttf");
+}
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  font-weight: 900;
+  src: url("../fonts/ProximaNova-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'ProximaNova-SemiBold';
+  font-weight: 900;
+  src: url("../fonts/ProximaNova-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  font-weight: 900;
+  src: url("../fonts/ProximaNova-Bold.ttf");
+}
+
+.section {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+.container {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-image: url("../img/headerBg.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.header .wrapOrder {
+  text-align: center;
+}
+
+.header .order {
+  display: inline-block;
+  font: 900 20px 'ProximaNovaExtrabold';
+  color: #080e1c;
+  background-color: #ffea3c;
+  width: 230px;
+  padding: 15px 0;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 40px 0;
+}
+
+.header .namePage img {
+  margin: 0 auto;
+  display: block;
+}
+
+.header .helpInfo {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 44px;
+  color: #fff;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.header .timer .title {
+  text-align: center;
+  color: #fff;
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 20px;
+}
+
+.header .timer .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.header .timer .wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.header .timer .dott {
+  font-family: 'ProximaNova-SemiBold';
+  color: #fff;
+  font-size: 42px;
+}
+
+.header .timer .col {
+  width: 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  border: 3px solid #fff;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  float: left;
+  margin: 0 15px;
+}
+
+.header .timer .col .count {
+  font-family: 'ProximaNova-SemiBold';
+  color: #fff;
+  font-size: 44px;
+  text-align: center;
+  width: 100%;
+  clear: both;
+  margin-top: 25px;
+}
+
+.header .timer .col .info {
+  font-family: 'ProximaNova-SemiBold';
+  color: #fff;
+  font-size: 19px;
+  text-align: center;
+  width: 100%;
+  clear: both;
+  margin-top: -15px;
+}
+
+.header .topPanel {
+  padding-top: 4%;
+}
+
+.header .topPanel .logoThe {
+  position: relative;
+  z-index: 0;
+  padding-left: 2%;
+  float: left;
+}
+
+.header .topPanel .logoThe .uppercase {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header .topPanel .logoThe .uppercase span {
+  color: #ffea3c;
+}
+
+.header .topPanel .logoThe .lovercase {
+  font-family: 'ProximaNova-Regular';
+  font-size: 16px;
+  color: #fff;
+}
+
+.header .topPanel .logoThe:before {
+  content: "";
+  position: absolute;
+  background-color: #ffea3c;
+  width: .4vw;
+  height: 100%;
+  left: 0;
+  top: .4vw;
+}
+
+.header .topPanel .infoBlock {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 5vw;
+  float: left;
+  width: 14%;
+  max-width: 269px;
+  min-width: 170px;
+  font-family: 'ProximaNova-Regular';
+  margin-top: 2%;
+  text-align: center;
+  padding: 10px 0 10px;
+  display: block;
+  padding-left: 30px;
+}
+
+.header .topPanel .dateBegin {
+  background-image: url("../img/icons/calendar.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.header .topPanel .email {
+  background-image: url("../img/icons/email.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.header .topPanel .phone {
+  background-image: url("../img/icons/phone.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.afterHeader {
+  padding: 40px 0 80px;
+  background-image: url("../img/afterHeaderBg.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-size: 4vw;
+}
+
+.afterHeader .titleSector {
+  font-family: 'ProximaNovaExtrabold';
+  color: #060c1a;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.afterHeader .cards {
+  width: 20%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 1%;
+  float: left;
+  height: 20vw;
+}
+
+.afterHeader .cards .psevdo {
+  width: 100%;
+  height: 100%;
+  background-color: #ffea3c;
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function: esase;
+  -o-transition-timing-function: esase;
+  transition-timing-function: esase;
+}
+
+.afterHeader .cards .psevdo:hover {
+  padding: 4% 0;
+  margin-top: -4%;
+  background-color: #fff;
+}
+
+.afterHeader .cards .psevdo img {
+  margin: 0 auto;
+  padding-top: 25%;
+  height: 30%;
+  display: block;
+}
+
+.afterHeader .cards .psevdo .info {
+  font-family: 'ProximaNova-Regular';
+  color: #090f1c;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 25%;
+}
+
+.blockedBisnes {
+  padding: 60px 0 75px;
+}
+
+.blockedBisnes .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blockedBisnes .container {
+  position: relative;
+  padding: 0;
+}
+
+.blockedBisnes .titleSector {
+  font-family: 'ProximaNovaExtrabold';
+  color: #080808;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.blockedBisnes .col {
+  width: 50%;
+  margin-top: 5%;
+  float: left;
+  position: relative;
+  padding-bottom: 160px;
+}
+
+.blockedBisnes .col .result {
+  position: absolute;
+  bottom: 0;
+  font-family: 'ProximaNova-Bold';
+  color: #080808;
+  font-size: 28px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 165px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 97%;
+}
+
+.blockedBisnes .col .result .redText {
+  display: inline;
+  color: #f44236;
+}
+
+.blockedBisnes .col .result .greenText {
+  display: inline;
+  color: #8bc24a;
+}
+
+.blockedBisnes .col .list {
+  margin-bottom: 40px;
+}
+
+.blockedBisnes .col .psevdoTitle {
+  font-family: 'ProximaNova-Bold';
+  font-size: 24px;
+  color: #080808;
+  margin-bottom: 50px;
+}
+
+.blockedBisnes .col .psevdoTitle div {
+  font-size: 44px;
+}
+
+.blockedBisnes .col li {
+  font-family: 'ProximaNova-Regular';
+  color: #080808;
+  font-size: 18px;
+  list-style: none;
+  position: relative;
+  list-style-image: url("../img/icons/yellowSendler.png");
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+.blockedBisnes .psevdoBg {
+  position: absolute;
+  left: 32.5%;
+  width: 35%;
+  top: 20%;
+}
+
+.blockedBisnes .psevdoBg img {
+  width: 100%;
+}
+
+.blockedBisnes .col.right .psevdoTitle {
+  padding-left: 35%;
+}
+
+.blockedBisnes .col.right .list {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 35%;
+}
+
+.blockedBisnes .col.right .result {
+  border-right: 0px solid #ffea3c;
+  z-index: 0;
+  right: 0;
+  background-image: url("../img/icons/rightKeyBlocked.png");
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: right;
+  background-position: left center;
+}
+
+.blockedBisnes .col.left .result {
+  border-left: 6px solid #ffea3c;
+  z-index: 0;
+  background-image: url("../img/icons/leftKeyBlocked.png");
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.youWillSee {
+  padding: 80px 0;
+  background-image: url("../img/youSee.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.youWillSee .leftSector {
+  width: 60%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 4%;
+}
+
+.youWillSee .leftSector .title {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 43px;
+  color: #080808;
+}
+
+.youWillSee .leftSector .afterTitle {
+  font-family: 'ProximaNova-Bold';
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.youWillSee .leftSector .row {
+  margin-top: 15px;
+  font-family: 'ProximaNova-Regular';
+  font-size: 16px;
+  color: #080808;
+}
+
+.youWillSee .leftSector .row b {
+  font-family: 'ProximaNova-Bold';
+}
+
+.youWillSee .wrapResult {
+  background-color: #ffea3c;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 30px;
+  font-family: 'ProximaNova-Regular';
+  color: #080808;
+  font-size: 20px;
+}
+
+.youWillSee .wrapResult b {
+  font-family: 'ProximaNova-Bold';
+}
+
+.youWillSee .rowNumberAboutUs {
+  width: 100%;
+  float: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.youWillSee .rowNumberAboutUs .cards {
+  width: 33.3%;
+  float: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.youWillSee .rowNumberAboutUs .cards .justInfo {
+  font-family: 'ProximaNova-SemiBold';
+  color: #080808;
+  margin-left: 25px;
+}
+
+.youWillSee .rowNumberAboutUs .cards .circle {
+  border: 5px solid #ffea3c;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  float: left;
+  width: 90px;
+  height: 90px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'ProximaNova-Bold';
+  font-size: 43px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.youWillSee .rightSector {
+  width: 40%;
+  float: left;
+}
+
+.youWillSee .rightSector .psevdo {
+  overflow: hidden;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.youWillSee .rightSector .justImg {
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 515px;
+  height: 390px;
+  background-image: url("../img/borderSee.jpg");
+}
+
+.youWillSee .rightSector img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

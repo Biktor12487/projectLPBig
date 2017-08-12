@@ -1,0 +1,363 @@
+*
+	padding: 0
+	margin: 0
+@font-face
+	font-family: 'ProximaNovaExtrabold'
+	font-weight: 900
+	src: url('../fonts/ProximaNova-Extrabld.ttf')
+@font-face
+	font-family: 'ProximaNova-Regular'
+	font-weight: 900
+	src: url('../fonts/ProximaNova-Regular.ttf')
+@font-face
+	font-family: 'ProximaNova-SemiBold'
+	font-weight: 900
+	src: url('../fonts/ProximaNova-SemiBold.ttf')
+@font-face
+	font-family: 'ProximaNova-Bold'
+	font-weight: 900
+	src: url('../fonts/ProximaNova-Bold.ttf')
+.section
+	width: 100%
+	float: left
+	clear: both
+.container
+	width: 1170px
+	max-width: 100%
+	margin: 0 auto
+	padding: 0 20px
+// header
+.header
+	background-image: url('../img/headerBg.jpg')
+	background-position: center
+	background-size: cover
+	.wrapOrder
+		text-align: center
+	.order
+		display: inline-block
+		font: 900 20px 'ProximaNovaExtrabold'
+		color: #080e1c
+		background-color: #ffea3c
+		width: 230px
+		padding: 15px 0
+		border-radius: 30px
+		margin: 40px 0
+	.namePage
+		img
+			margin: 0 auto
+			display: block
+			&:after
+	.helpInfo
+		font-family: 'ProximaNovaExtrabold'
+		font-size: 44px
+		color: #fff
+		text-align: center
+		margin-top: -50px;
+	.timer 
+		.title
+			text-align: center
+			color: #fff
+			display: block
+			width: 100%
+			margin: 30px 0
+			font-family: 'ProximaNovaExtrabold'
+			font-size: 20px
+		.row
+			display: flex
+			justify-content: space-around
+		.wrap
+			display: flex
+			align-items: center
+			justify-content: space-around
+		.dott
+			font-family: 'ProximaNova-SemiBold'
+			color: #fff
+			font-size: 42px
+		.col
+			width: 100px
+			height: 100px
+			display: flex
+			justify-content: space-around
+			border: 3px solid #fff
+			border-radius: 100%
+			flex-wrap: wrap
+			float: left
+			margin: 0 15px
+			.count
+				font-family: 'ProximaNova-SemiBold'
+				color: #fff
+				font-size: 44px
+				text-align: center
+				width: 100%
+				clear: both
+				margin-top: 25px
+			.info
+				font-family: 'ProximaNova-SemiBold'
+				color: #fff
+				font-size: 19px
+				text-align: center
+				width: 100%
+				clear: both
+				margin-top: -15px
+
+	.topPanel 
+		padding-top: 4%
+		.logoThe
+			position: relative
+			z-index: 0
+			padding-left: 2%
+			float: left
+			.uppercase
+				font-family: 'ProximaNovaExtrabold'
+				font-size: 30px
+				text-transform: uppercase
+				color: #fff
+				span
+					color: #ffea3c
+			.lovercase
+				font-family: 'ProximaNova-Regular'
+				font-size: 16px
+				color: #fff
+			&:before
+				content: ""
+				position: absolute
+				background-color: #ffea3c
+				width: .4vw
+				height: 100%
+				left: 0
+				top: .4vw
+		.infoBlock
+			text-decoration: none
+			color: #fff
+			margin-left: 5vw
+			float: left
+			width: 14%
+			max-width: 269px
+			min-width: 170px
+			font-family: 'ProximaNova-Regular'
+			margin-top: 2%
+			text-align: center
+			padding: 10px 0 10px
+			display: block
+			padding-left: 30px
+		.dateBegin
+			background-image: url('../img/icons/calendar.png')
+			background-repeat: no-repeat
+			background-position: left
+		.email
+			background-image: url('../img/icons/email.png')
+			background-repeat: no-repeat
+			background-position: left
+		.phone
+			background-image: url('../img/icons/phone.png')
+			background-repeat: no-repeat
+			background-position: left
+// afterHeader
+.afterHeader
+	padding: 40px 0 80px
+	background-image: url('../img/afterHeaderBg.jpg')
+	background-position: center 
+	background-size: cover
+	font-size: 4vw
+	.titleSector
+		font-family: 'ProximaNovaExtrabold'
+		color: #060c1a
+		font-size: 50px
+		text-align: center
+		padding-bottom: 60px
+	.cards
+		width: 20%
+		box-sizing: border-box
+		padding: 0 1%	
+		float: left
+		height: 20vw
+		.psevdo
+			width: 100%
+			height: 100%
+			background-color: #ffea3c
+			transition-duration: .5s
+			transition-timing-function: esase
+			&:hover
+				padding: 4% 0
+				margin-top: -4%
+				background-color: #fff
+			img
+				margin: 0 auto
+				padding-top: 25%
+				height: 30%
+				display: block
+			.info 
+				font-family: 'ProximaNova-Regular'
+				color: #090f1c
+				font-size: 22px
+				text-align: center
+				padding-top: 25%
+// blockedBisnes
+.blockedBisnes
+	padding: 60px 0 75px
+	.row
+		display: flex
+	.container
+		position: relative
+		padding: 0
+	.titleSector
+		font-family: 'ProximaNovaExtrabold'
+		color: #080808
+		font-size: 50px
+		text-align: center
+		margin-bottom: 70px
+	.col
+		width: 50%
+		margin-top: 5%
+		float: left	
+		position: relative
+		padding-bottom: 160px
+		.result
+			position: absolute
+			bottom: 0
+			font-family: 'ProximaNova-Bold'
+			color: #080808
+			font-size: 28px
+			box-sizing: border-box
+			padding: 20px
+			height: 165px
+			display: flex
+			align-items: center
+			width: 97%
+			.redText
+				display: inline
+				color: #f44236
+			.greenText
+				display: inline
+				color: #8bc24a
+		.list
+			margin-bottom: 40px
+		.psevdoTitle
+			font-family: 'ProximaNova-Bold'
+			font-size: 24px
+			color: #080808
+			margin-bottom: 50px
+			div
+				font-size: 44px
+		li
+			font-family: 'ProximaNova-Regular'
+			color: #080808
+			font-size: 18px
+			list-style: none
+			position: relative
+			list-style-image: url('../img/icons/yellowSendler.png')
+			list-style-position: inside
+			margin-bottom: 10px
+	.psevdoBg
+		position: absolute
+		left: 32.5%
+		width: 35%
+		top: 20%
+		img
+			width: 100%
+	.col.right
+		.psevdoTitle
+			padding-left: 35%
+		.list
+			box-sizing: border-box
+			padding-left: 35%
+		.result
+			border-right: 0px solid #ffea3c
+			z-index: 0
+			right: 0
+			background-image: url('../img/icons/rightKeyBlocked.png')
+			background-size: 100% 100%
+			background-repeat: no-repeat
+			text-align: right
+			background-position: left center
+	.col.left
+		.result
+			border-left: 6px solid #ffea3c
+			z-index: 0
+			background-image: url('../img/icons/leftKeyBlocked.png')
+			background-size: 100% 100%
+			background-repeat: no-repeat
+			background-position: right center
+// youWillSee
+.youWillSee
+	padding: 80px 0
+	background-image: url('../img/youSee.jpg')
+	background-size: cover
+	background-position: center
+	.leftSector
+		width: 60%
+		float: left
+		box-sizing: border-box
+		padding-right: 4%
+		.title
+			font-family: 'ProximaNovaExtrabold'
+			font-size: 43px
+			color: #080808
+		.afterTitle
+			font-family: 'ProximaNova-Bold'
+			font-size: 22px
+			margin-bottom: 25px
+		.row
+			margin-top: 15px
+			font-family: 'ProximaNova-Regular'
+			font-size: 16px
+			color: #080808
+			b
+				font-family: 'ProximaNova-Bold'
+	.wrapResult
+		background-color: #ffea3c
+		padding: 20px
+		box-sizing: border-box
+		width: 100%
+		margin-top: 30px
+		font-family: 'ProximaNova-Regular'
+		color: #080808
+		font-size: 20px
+		b 
+			font-family: 'ProximaNova-Bold'
+	.rowNumberAboutUs
+		width: 100%
+		float: left
+		display: flex
+		align-items: center
+		flex-wrap: wrap
+		.cards
+			width: 33.3%
+			float: left
+			display: flex
+			margin-top: 50px
+			align-items: center
+			.justInfo
+				font-family: 'ProximaNova-SemiBold'
+				color: #080808
+				margin-left: 25px
+			.circle
+				border: 5px solid #ffea3c
+				border-radius: 100%
+				float: left
+				width: 90px
+				height: 90px
+				display: flex
+				align-items: center
+				font-family: 'ProximaNova-Bold'
+				font-size: 43px
+				justify-content: space-around
+	.rightSector
+		width: 40%
+		float: left
+		.psevdo
+			overflow: hidden
+			padding: 20px
+			box-sizing: border-box
+			height: 100%
+			width: 100%
+			display: flex
+			align-items: center
+		.justImg
+			background-position: center
+			background-size: cover
+			width: 515px 
+			height: 390px
+			background-image: url('../img/borderSee.jpg')
+		img
+			width: 100%
