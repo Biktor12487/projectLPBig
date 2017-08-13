@@ -1669,4 +1669,75 @@
   padding-left: 25px;
 }
 
+.winner {
+  padding: 60px 0 90px;
+  background-image: url("../img/winnerBg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.winner .titleSector {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 50px;
+  color: #ffea3c;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.winner .afterTitle {
+  font-family: 'ProximaNova-Bold';
+  font-size: 29px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.winner .contentSectpr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.winner .cards {
+  width: 31.3%;
+  margin: 0 1%;
+  float: left;
+  border: 5px solid #ffea3c;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 45px 10px 5px 10px;
+}
+
+.winner .cards img {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.winner .cards .title {
+  font-family: 'ProximaNova-Bold';
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.winner .cards .text {
+  font-family: 'ProximaNova-Regular';
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.winner .cards .text div {
+  margin-bottom: 25px;
+}
+
+.winner .cards .text b {
+  font-family: 'ProximaNova-Bold';
+}
+
 /*# sourceMappingURL=style.css.map */
