@@ -924,4 +924,164 @@
   top: .4vw;
 }
 
+.wePrepearForYou {
+  padding: 80px 0 70px;
+}
+
+.wePrepearForYou .title {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 50px;
+  color: #060c1a;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.wePrepearForYou .afterText {
+  font-family: 'ProximaNova-SemiBold';
+  font-size: 24px;
+  color: #080808;
+  margin-top: 80px;
+  padding-bottom: 60px;
+}
+
+.wePrepearForYou .afterText b {
+  font-family: 'ProximaNovaExtrabold';
+}
+
+.wePrepearForYou .wrapLink {
+  text-align: center;
+}
+
+.wePrepearForYou .downloadPdf {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #f44236;
+  width: 335px;
+  display: inline-block;
+  text-align: center;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  padding: 20px 0;
+  text-decoration: none;
+}
+
+.wePrepearForYou .dateLineOne {
+  width: 100%;
+  border: 5px solid #ffea3c;
+  height: 160px;
+}
+
+.wePrepearForYou .dateLineOne .cardFirst {
+  width: 24%;
+  height: 100%;
+  background-color: #ffea3c;
+  float: left;
+}
+
+.wePrepearForYou .dateLineOne .cardFirst .day {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 70px;
+  color: #060c1a;
+  text-align: center;
+}
+
+.wePrepearForYou .dateLineOne .cardFirst .month {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 28px;
+  text-align: center;
+  color: #060c1a;
+}
+
+.wePrepearForYou .dateLineOne .cardFirst .time {
+  font-family: 'ProximaNova-SemiBold';
+  font-size: 20px;
+  color: #060c1a;
+  text-align: center;
+}
+
+.wePrepearForYou .dateLineOne .owl-carousel {
+  width: 66%;
+  margin-left: 5%;
+  float: left;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-right: 5px solid #f2f2f4;
+  border-left: 5px solid #f2f2f4;
+}
+
+.wePrepearForYou .dateLineOne .owl-carousel .owl-stage-outer {
+  margin-left: 4px;
+}
+
+.wePrepearForYou .dateLineOne .owl-item, .wePrepearForYou .dateLineOne .owl-stage-outer, .wePrepearForYou .dateLineOne .owl-stage {
+  height: 100%;
+}
+
+.wePrepearForYou .dateLineOne .card {
+  height: 100%;
+  padding: 35px 35px 30px 35px;
+  border-right: 5px solid #f2f2f4;
+}
+
+.wePrepearForYou .dateLineOne .card .curator {
+  font-family: 'ProximaNova-Bold';
+  font-size: 20px;
+  color: #060c1a;
+}
+
+.wePrepearForYou .dateLineOne .card .from {
+  font-family: 'ProximaNova-SemiBold';
+  font-size: 16px;
+  color: #a8a7a7;
+  padding-bottom: 15px;
+}
+
+.wePrepearForYou .dateLineOne .card .time {
+  font-family: 'ProximaNova-Regular';
+  font-size: 18px;
+  color: #060c1a;
+  padding: 4px 0;
+  padding-left: 50px;
+  background-image: url("../img/icons/hours.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.wePrepearForYou .dateLineOne .owl-prev {
+  background-image: url("../img/icons/yellowArrowPrev.png");
+  -webkit-background-size: container container;
+  background-size: container;
+  background-repeat: no-repeat;
+  height: 25px;
+  float: left;
+  width: 20px;
+  margin-left: -40px;
+}
+
+.wePrepearForYou .dateLineOne .owl-next {
+  background-image: url("../img/icons/yellowArrowNext.png");
+  -webkit-background-size: container container;
+  background-size: container;
+  background-repeat: no-repeat;
+  height: 25px;
+  float: right;
+  width: 20px;
+  margin-right: -40px;
+}
+
+.wePrepearForYou .dateLineOne .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 45%;
+}
+
+.wePrepearForYou .twoRowDateLine {
+  margin-top: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
