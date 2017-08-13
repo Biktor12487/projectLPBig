@@ -1302,4 +1302,47 @@
   color: #fff;
 }
 
+.moderator {
+  padding: 50px 0 45px;
+  background-image: url("../img/moderatorBg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.moderator .leftSector {
+  width: 60%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 75px;
+}
+
+.moderator .leftSector .title {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 70px;
+  color: #060c1a;
+  margin-top: 95px;
+  margin-bottom: 55px;
+}
+
+.moderator .leftSector .name {
+  font-family: 'ProximaNova-Bold';
+  font-size: 35px;
+  color: #060c1a;
+}
+
+.moderator .leftSector .from {
+  font-family: 'ProximaNova-SemiBold';
+  font-size: 20px;
+  color: #a8a7a7;
+  margin-bottom: 15px;
+}
+
+.moderator .leftSector .status {
+  font-family: 'ProximaNova-Regular';
+  font-size: 18px;
+  color: #060c1a;
+}
+
 /*# sourceMappingURL=style.css.map */
