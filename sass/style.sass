@@ -890,3 +890,62 @@
 			top: 40%
 		&:nth-child(odd)
 			float: right
+// problem
+.problem
+	padding: 85px 0 105px
+	background-image: url('../img/problem.jpg')
+	background-size: cover
+	background-position: center
+	background-attachment: fixed
+	.title
+		font-family: 'ProximaNovaExtrabold'
+		font-size: 50px
+		color: #fff
+		text-align: center
+		margin-bottom: 80px
+	.contentSector
+		display: flex
+	.leftSector , .rightSector
+		width: 50%
+		float: left
+		.content
+			border-left: 5px solid #ffea3c
+			position: relative
+			z-index: 1
+			height: 100%
+			position: relative
+			padding-left: 15px
+			&:before
+				content: ""
+				border: 10px solid transparent
+				border-left: 10px solid #ffea3c
+				position: absolute
+				left: 0
+				top: 50%
+				margin-top: -5px
+	.leftSector
+		.content
+			font-family: 'ProximaNova-Regular'
+			font-size: 30px
+			color: #fff
+			span
+				font-family: 'ProximaNova-Bold'
+				color: #ffea3c
+	.rightSector
+		.content
+			font-family: 'ProximaNova-Regular'
+			font-size: 16px
+			color: #fff
+			margin-left: 100px
+			.row:nth-child(1)
+				margin-bottom: 35px
+				span
+					font-family: 'ProximaNova-Bold'
+					color: #ffea3c
+					font-size: 20px
+			.row:nth-child(2)
+				position: absolute
+				bottom: 0 
+				span
+					font-family: 'ProximaNova-SemiBold'
+					color: #ffea3c

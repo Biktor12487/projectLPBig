@@ -1390,4 +1390,90 @@
   float: right;
 }
 
+.problem {
+  padding: 85px 0 105px;
+  background-image: url("../img/problem.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.problem .title {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.problem .contentSector {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.problem .leftSector, .problem .rightSector {
+  width: 50%;
+  float: left;
+}
+
+.problem .leftSector .content, .problem .rightSector .content {
+  border-left: 5px solid #ffea3c;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  position: relative;
+  padding-left: 15px;
+}
+
+.problem .leftSector .content:before, .problem .rightSector .content:before {
+  content: "";
+  border: 10px solid transparent;
+  border-left: 10px solid #ffea3c;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -5px;
+}
+
+.problem .leftSector .content {
+  font-family: 'ProximaNova-Regular';
+  font-size: 30px;
+  color: #fff;
+}
+
+.problem .leftSector .content span {
+  font-family: 'ProximaNova-Bold';
+  color: #ffea3c;
+}
+
+.problem .rightSector .content {
+  font-family: 'ProximaNova-Regular';
+  font-size: 16px;
+  color: #fff;
+  margin-left: 100px;
+}
+
+.problem .rightSector .content .row:nth-child(1) {
+  margin-bottom: 35px;
+}
+
+.problem .rightSector .content .row:nth-child(1) span {
+  font-family: 'ProximaNova-Bold';
+  color: #ffea3c;
+  font-size: 20px;
+}
+
+.problem .rightSector .content .row:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+}
+
+.problem .rightSector .content .row:nth-child(2) span {
+  font-family: 'ProximaNova-SemiBold';
+  color: #ffea3c;
+}
+
 /*# sourceMappingURL=style.css.map */
