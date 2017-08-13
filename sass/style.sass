@@ -641,6 +641,8 @@
 				font-size: 20px
 				color: #060c1a
 				text-align: center
+		.owl-drag
+			position: relative
 		.owl-carousel
 			width: 66%
 			margin-left: 5%
@@ -700,3 +702,127 @@
 			top: 45%
 	.twoRowDateLine
 		margin-top: 30px
+// rate
+.rate
+	padding: 70px 0 85px
+	background-image: url('../img/rateBg.jpg')
+	position: relative
+	.title
+		font-family: 'ProximaNovaExtrabold'
+		font-size: 50px
+		color: #060c1a
+		text-align: center
+	.afterTitle
+		font-family: 'ProximaNova-Bold'
+		font-size: 29px
+		color: #060c1a
+		text-align: center
+		margin-bottom: 50px
+	.table
+		position: relative
+		height: 525px
+	.wrapTable
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+	.colOne
+		width: 30%
+		float: left
+		margin-top: -3px
+		.col
+			background-color: #ffea3c
+			font-family: 'ProximaNova-Bold'
+			color: #060c1a
+			height: 75px
+			padding-left: 25px
+			font-size: 25px
+			border-bottom: 3px solid #eff0f1
+			box-sizing: border-box
+			display: flex
+			align-items: center
+		.col:first-child
+			opacity: 0
+		.col:last-child
+			opacity: 0
+	.colTwo , .colThree , .colFour
+		width: 23.3%
+		float: left
+		transition-duration: .5s
+		transition-timing-function: ease
+		&:hover
+			position: relative
+			z-index: 1
+			box-shadow: 0 0 50px #dcdcde
+			margin-top: -15px
+			.col:nth-child(2)
+				height: 90px
+			.col:last-child
+				height: 110px
+		.col
+			height: 75px
+			width: 100%
+			background-color: #fff
+			text-align: center
+			border-bottom: 3px solid #eff0f1
+			box-sizing: border-box
+			display: flex
+			align-items: center
+			justify-content: space-around
+			&:first-child
+				font-family: 'ProximaNova-Bold'
+				font-size: 24px
+				color: #060c1a
+				text-transform: uppercase
+				margin-bottom: 0
+				border-bottom: 3px solid #ffea3c
+				box-sizing: border-box
+		.orderNeed
+			font-family: 'ProximaNovaExtrabold'
+			font-size: 17px
+			color: #171c29
+			text-transform: uppercase
+			border-radius: 25px
+			border: 4px solid #ffea3c
+			width: 220px
+			height: 45px
+			display: flex
+			align-items: center
+			justify-content: space-around
+			transition-duration: .5s
+			transition-timing-function: ease
+			&:hover
+				background-color: #ffea3c
+	.mapRoom
+		width: 100%
+		float: left
+		clear: both
+		margin-top: 60px
+		height: 90px
+		.first
+			height: 100%
+			width: 30%
+			float: left
+			background-color: #fff
+			background-image: url('../img/icons/networking.png')
+			background-repeat: no-repeat
+			background-position: 15px center
+			display: flex
+			align-items: center
+			div
+				font-family: 'ProximaNova-Bold'
+				font-size: 32px
+				color: #060c1a
+				margin-left: 35%
+				border-bottom: 4px solid #ffea3c
+		.last
+			width: 70%
+			float: left
+			background-color: #000
+			height: 100%
+			display: flex
+			align-items: center
+			justify-content: space-around
+			font-family: 'ProximaNova-Bold'
+			font-size: 36px
+			color: #fff
